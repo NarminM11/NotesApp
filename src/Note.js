@@ -1,4 +1,3 @@
-// Note.js
 import React from "react";
 
 const Note = ({ note }) => {
@@ -6,7 +5,7 @@ const Note = ({ note }) => {
     <div className="note">
       <h2>{note.title}</h2>
       <p>{note.content}</p>
-      <p>{note.createdDate.toDateString()}</p>
+      <p>Created on: {note.createdDate.toDateString()}</p>
       {note.image && <img src={note.image} alt="Note Image" />}
     </div>
   );

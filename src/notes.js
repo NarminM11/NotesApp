@@ -1,18 +1,34 @@
-// notes.js
 const notes = [
     {
-      title: "Note 1",
-      content: "This is the content of Note 1.",
+      title: "SDP Notes",
+      content: "discuss update details of project",
       createdDate: new Date(),
-      image: "url_to_image_1"
+      image: "url_to_image_1",
     },
     {
-      title: "Note 2",
-      content: "This is the content of Note 2.",
+      title: "AI class Notes",
+      content: "have deadline for 29.11",
       createdDate: new Date(),
-      image: null
+      image: null,
     },
-    // Add more notes as needed
+    {
+      title: "Note 3",
+      content: "This is the content of Note 3.",
+      createdDate: new Date(),
+      image: null,
+    },
+    {
+      title: "Note 4",
+      content: "This is the content of Note 4.",
+      createdDate: new Date(),
+      image: null,
+    },
+    {
+      title: "Note 5",
+      content: "This is the content of Note 5.",
+      createdDate: new Date(),
+      image: "url_to_image_5",
+    },
   ];
   
   export default notes;
